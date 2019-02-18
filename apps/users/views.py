@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from users.serializers import UserModelSerializer,RoleModelSerializer,DepartmentModelSerializer
-from users.models import Role,Department
+from apps.users.models import Role,Department
 from django.contrib.auth import get_user_model
 from rest_framework import viewsets
 
